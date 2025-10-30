@@ -371,7 +371,8 @@ Imagine that we had the weather data set for all 365 days of the year. It would 
 #### Read csv file
 
 ```{r}
-cohortOne <- read.csv("cohort1.csv", header=TRUE)  # header=TRUE because the file has a header
+data_file <- file.path("data", "cohort1.csv")
+cohortOne <- read.csv(data_file, header=TRUE)  # header=TRUE because the file has a header
 cohortOne
 ```
 
