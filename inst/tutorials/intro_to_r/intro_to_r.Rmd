@@ -42,7 +42,8 @@ R is a popular programming language used for statistical computing and graphical
 A working directory in R is a specific location (a folder or directory) on your computer that R uses as the default place to look for files when you try to read them into R, and where it will save files when you write them out from R. To set a working directory in we use the `setwd("path to your directory")` function.
 
 ```{r}
-setwd("C:/Users/devmbeya/Documents/rmentorshipprogram/cohort1") 
+#setwd("C:/Users/devmbeya/Documents/rmentorshipprogram/cohort1") 
+# Change C:/Users/devmbeya/Documents/rmentorshipprogram/cohort1 path to your working directory
 ```
 
 The code above sets `cohort1` folder in the `rmentorshipprogram` folder located in the `Documents` library as a working directory.
